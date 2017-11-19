@@ -12,9 +12,12 @@ end
 
 
 def fizzbuzzChecker(test_number)
-	if number(test_number) == "fizz"
+	if number(test_number) == "fizzbuzz"
 		number(test_number)
-
+	elsif number(test_number) == "fizz"
+		number(test_number)
+	elsif number(test_number) == "buzz"
+		number(test_number)
 	else
 		"number is not divisible"
 	end
