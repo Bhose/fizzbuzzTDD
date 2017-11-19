@@ -31,9 +31,9 @@ class TestfizzbuzzTDD < Minitest::Test
 	# 	assert_equal("number is not divisible", number(2))
 	# end
 
-	def test_assert_that_createArray_equals_array
-		assert_equal(Array, createArray())
-	end
+	# def test_assert_that_createArray_equals_array
+	# 	assert_equal(Array, createArray())
+	# end
 
 	def test_assert_that_first_number_is_1
 		assert_equal(1, array_eval(0))
@@ -46,5 +46,10 @@ class TestfizzbuzzTDD < Minitest::Test
 	def test_assert_that_50th_position_equals_51
 		assert_equal(51, array_eval(50))
 	end
+
+	def test_assert_that_position_2_says_fizz
+		assert_equal("fizz", number(2))
+	end
+
 
 end

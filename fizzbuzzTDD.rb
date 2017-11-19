@@ -11,20 +11,20 @@ end
 
 
 def number (test_number)
-	number = test_number
-	counter = 1
+	# number = test_number
+	counter = 0
 	100.times do
-		$number_array[counter]
-
-		if number % 3 == 0 && number % 5 == 0
-		"fizzbuzz"
-		elsif number % 5 == 0 
-		"buzz"
-		elsif number % 3 == 0
-		"fizz"
+		if $number_array[counter] % 3 == 0 && $number_array[counter] % 5 == 0
+		$number_array[counter] = "fizzbuzz"
+		elsif $number_array[counter] % 5 == 0 
+		$number_array[counter] = "buzz"
+		elsif $number_array[counter] % 3 == 0
+		$number_array[counter] = "fizz"
 		end
 	counter += 1
 	end
+	$number_array[test_number]
+
 
 end
 
