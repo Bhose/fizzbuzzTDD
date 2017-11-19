@@ -1,6 +1,6 @@
+$number_array = *(1..100)
+
 def createArray ()
-	$number_array = *(1..100)
-	puts $number_array
 	$number_array.class
 end
 

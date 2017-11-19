@@ -39,4 +39,12 @@ class TestfizzbuzzTDD < Minitest::Test
 		assert_equal(1, array_eval(0))
 	end
 
+	def test_assert_that_last_number_is_100
+		assert_equal(100, array_eval(99))
+	end
+	
+	def test_assert_that_50th_position_equals_51
+		assert_equal(51, array_eval(50))
+	end
+
 end
