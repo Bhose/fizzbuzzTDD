@@ -12,14 +12,18 @@ end
 
 def number (test_number)
 	number = test_number
-	if number % 3 == 0 && number % 5 == 0
+	counter = 1
+	100.times do
+		$number_array[counter]
+
+		if number % 3 == 0 && number % 5 == 0
 		"fizzbuzz"
-	elsif number % 5 == 0 
+		elsif number % 5 == 0 
 		"buzz"
-	elsif number % 3 == 0
+		elsif number % 3 == 0
 		"fizz"
-	else
-		"number is not divisible"
+		end
+	counter += 1
 	end
 
 end
