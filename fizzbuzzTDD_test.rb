@@ -31,6 +31,8 @@ class TestfizzbuzzTDD < Minitest::Test
 		assert_equal("number is not divisible", number(2))
 	end
 
-	
+	def test_assert_that_createArray_equals_array
+		assert_equal(Array, createArray())
+	end
 
 end
