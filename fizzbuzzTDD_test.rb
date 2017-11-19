@@ -35,4 +35,8 @@ class TestfizzbuzzTDD < Minitest::Test
 		assert_equal(Array, createArray())
 	end
 
+	def test_assert_that_first_number_is_1
+		assert_equal(1, createArray(0))
+	end
+
 end
