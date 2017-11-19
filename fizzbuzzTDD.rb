@@ -11,7 +11,14 @@ def number (test_number)
 end
 
 
+def fizzbuzzChecker(test_number)
+	if number(test_number) == "fizz"
+		number(test_number)
 
+	else
+		"number is not divisible"
+	end
+end
 
 
 
