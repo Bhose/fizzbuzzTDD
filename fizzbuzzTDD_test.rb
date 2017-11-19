@@ -10,5 +10,9 @@ class TestfizzbuzzTDD < Minitest::Test
 		assert_equal("fizz", number(6))
 	end
 
+	def test_assert_that_10_is_buzz
+		assert_equal("buzz", number(10))
+	end
+
 
 end
