@@ -35,20 +35,28 @@ class TestfizzbuzzTDD < Minitest::Test
 	# 	assert_equal(Array, createArray())
 	# end
 
-	def test_assert_that_first_number_is_1
-		assert_equal(1, array_eval(0))
-	end
+	# def test_assert_that_first_number_is_1
+	# 	assert_equal(1, array_eval(0))
+	# end
 
-	def test_assert_that_last_number_is_100
-		assert_equal(100, array_eval(99))
-	end
+	# def test_assert_that_last_number_is_100
+	# 	assert_equal(100, array_eval(99))
+	# end
 	
-	def test_assert_that_50th_position_equals_51
-		assert_equal(51, array_eval(50))
-	end
+	# def test_assert_that_50th_position_equals_51
+	# 	assert_equal(51, array_eval(50))
+	# end
 
 	def test_assert_that_position_2_says_fizz
 		assert_equal("fizz", number(2))
+	end
+
+	def test_assert_that_9th_position_says_buzz
+		assert_equal("buzz", number(9))
+	end
+
+	def test_assert_that_14th_position_says_fizzbuzz
+		assert_equal("fizzbuzz", number(14))
 	end
 
 
