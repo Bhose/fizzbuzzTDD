@@ -10,7 +10,7 @@ end
 
 
 
-def number (test_number)
+def number ()
 	# number = test_number
 	counter = 0
 	100.times do
@@ -23,10 +23,15 @@ def number (test_number)
 		end
 	counter += 1
 	end
-	$number_array[test_number]
-
+	#$number_array[test_number]
 
 end
+
+number()
+puts $number_array
+
+
+
 
 
 

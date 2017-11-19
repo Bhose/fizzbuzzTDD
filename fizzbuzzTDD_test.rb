@@ -59,5 +59,4 @@ class TestfizzbuzzTDD < Minitest::Test
 		assert_equal("fizzbuzz", number(14))
 	end
 
-
 end
