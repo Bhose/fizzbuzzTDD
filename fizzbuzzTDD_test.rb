@@ -36,7 +36,7 @@ class TestfizzbuzzTDD < Minitest::Test
 	end
 
 	def test_assert_that_first_number_is_1
-		assert_equal(1, createArray(0))
+		assert_equal(1, array_eval(0))
 	end
 
 end

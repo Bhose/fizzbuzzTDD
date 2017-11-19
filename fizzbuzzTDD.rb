@@ -1,11 +1,12 @@
 def createArray ()
-	number_array = *(1..100)
-	puts number_array
-	number_array.class
+	$number_array = *(1..100)
+	puts $number_array
+	$number_array.class
 end
 
-
-
+def array_eval(placeHolder)
+	$number_array[placeHolder]
+end
 
 
 
